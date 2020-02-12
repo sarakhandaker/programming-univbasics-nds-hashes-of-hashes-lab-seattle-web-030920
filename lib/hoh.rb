@@ -4,6 +4,7 @@
 #
 # The tests will guide your construction.
 #
+
 PORTION_1 = {
   label: "Kingdom",
  sub_category: {
@@ -41,12 +42,5 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-hoh= { PORTION_1 {
-  PORTION_2{
-    PORTION_3{
-    PORTION_4
-  }
-}
-  
-}
+hoh= { PORTION_1}
 end
